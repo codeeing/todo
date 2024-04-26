@@ -1,0 +1,21 @@
+<div class="common-layout header todo-header">
+    <header>
+        <div class="todo-title">
+            <h3 id="today"></h3>
+            <ion-icon name="cube-outline" class="icon cube-icon btn"></ion-icon>
+            <span id="nickname"></span>의 do-daily<br>
+            <!-- <span id="profile-img"></span> -->
+        </div>
+    </header>
+</div>
+<div class="common-layout main todo-main">
+<div class="todo-container">
+    <ion-icon name="add-circle-outline" class="icon add-icon btn"></ion-icon>
+    <div class="todo-list">
+    </div>
+</div>
+</div>
+<div class="common-layout footer todo-footer">
+    <footer>
+    </footer>
+</div>

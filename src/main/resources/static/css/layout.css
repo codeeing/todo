@@ -1,0 +1,138 @@
+.fetch-area {
+    width: 100%;
+    height: 100%;
+    background-color: #F8FAFC;
+}
+
+.common-layout {
+    border-left: 1px solid #cbd5e1;
+    border-right: 1px solid #cbd5e1;
+    background-color: white;
+    width: 45%;
+    margin: auto;
+}
+
+.login-header, .login-footer, .todo-header{/*, .todo-footer*/
+    height: 20%;
+}
+
+.login-main{/*, .todo-main*/
+    height: 60%;
+}
+
+.todo-footer{
+    height: 10%;
+}
+
+.todo-main{
+    height: 70%;
+}
+
+.register-header, .register-footer{
+    height: 15%;
+}
+
+.register-main {
+    height: 70%;
+}
+
+.login-container, .register-container, .welcome-container, .todo-container{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    padding-top: 3%;
+}
+
+.todo-container {
+    width: 90%;
+    border: 1px solid black;
+}
+/*///*/
+.logo-item{
+    text-align: center;
+}
+
+.form-control{
+    width: 70%;
+    margin: auto;
+}
+
+.form-label{
+    margin-left: 15%;
+}
+
+.register-link{
+    display: block;
+    text-align: center;
+}
+
+.login-btn, .register-btn{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+
+/*icon*/
+.email-item, .passwd-item, .nickname-item, .register-header, .todo-header, .todo-container, .todo-item{
+    position: relative;
+}
+
+.icon{
+    font-size: 1.5em;
+    position: absolute;
+}
+
+.back-icon{
+    top: 25%;
+    left: 3%;
+}
+
+.email-icon, .passwd-icon, .nickname-icon{
+    top: 20%;
+    left: 4%;
+}
+
+.add-icon{
+    top: 1%;
+    left: 1%;
+}
+
+.noncheck-icon, .check-icon {
+    font-size: 1.2em;
+    left: 2%;
+}
+
+.cube-icon {
+    top: 10%;
+    right: 5%;
+}
+
+/*/////*/
+
+.todo-list{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    border: 1px solid red;
+}
+
+.todo-item{
+    height: 10%;
+}
+
+.todo{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 70%;
+    height: 70%;
+}
+
+.todo-title{
+    margin: auto 0;
+}
+
+

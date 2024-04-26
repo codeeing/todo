@@ -1,0 +1,27 @@
+<!--xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+layout:decorate="~{common/layout/defaultLayout}"-->
+<!--<th:block layout:fragment="script">-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!--<link th:href="@{/css/layout.css}" rel="stylesheet">-->
+<link href="/css/layout.css" rel="stylesheet">
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!--
+window.addEventListener('popstate', function(event) {
+    console.log("State changed:", event.state);
+    alert("State changed:", event.state);
+    alert(1);
+});
+// 페이지 fetch를 통해 렌더링
+-->
+
+
+<!--</th:block>-->
+<!--<div class="fetch-area" layout:fragment="content">
+</div>-->
+<div class="fetch-area">
+</div>
+<script src="/js/fetch.js"></script>
+<script src="/js/request.js"></script>
+<script>window.onload = fetchPage('login');</script>

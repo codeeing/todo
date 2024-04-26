@@ -1,0 +1,13 @@
+<div class="common-layout header storage-header">
+    <header>
+
+    </header>
+</div>
+<div class="common-layout main storage-main">
+    <div class="todo-container">
+    </div>
+</div>
+<div class="common-layout footer storage-footer">
+    <footer>
+    </footer>
+</div>

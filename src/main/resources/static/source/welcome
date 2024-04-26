@@ -1,0 +1,14 @@
+<div class="main">
+<div class="welcome-container">
+    <div class="logo-item"><h1>환 영 합 니 다!</h1></div>
+    <div class="email-item">
+        <h2>이제부터 todoDaily를 사용할 수 있습니다.</h2>
+    </div><br>
+    <div class="btn-item">
+        <a href="javascript:fetchPage('/login')">로그인하러가기</a>
+    </div>
+</div>
+</div>
+
+
+
