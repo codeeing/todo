@@ -1,0 +1,14 @@
+.login-main{/*, .todo-main*/
+    height: 60%;
+}
+
+.login-header, .login-footer, .todo-header{ /*, .todo-footer*/
+    height: 20%;
+}
+
+.login-container, .register-container, .welcome-container, .todo-container{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    padding-top: 3%;
+}

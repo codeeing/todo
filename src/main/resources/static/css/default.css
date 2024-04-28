@@ -1,23 +1,21 @@
-.fetch-area {
+body {
+    margin: 0;
     width: 100%;
     height: 100%;
     background-color: #F8FAFC;
 }
 
-.common-layout {
+.container{
+    height: 100%;
+}
+
+.header, .footer, .content{/*.common-layout*/
     border-left: 1px solid #cbd5e1;
     border-right: 1px solid #cbd5e1;
     background-color: white;
+    height:40%;
     width: 45%;
     margin: auto;
-}
-
-.login-header, .login-footer, .todo-header{/*, .todo-footer*/
-    height: 20%;
-}
-
-.login-main{/*, .todo-main*/
-    height: 60%;
 }
 
 .todo-footer{
@@ -34,13 +32,6 @@
 
 .register-main {
     height: 70%;
-}
-
-.login-container, .register-container, .welcome-container, .todo-container{
-    width: 60%;
-    height: 100%;
-    margin: auto;
-    padding-top: 3%;
 }
 
 .todo-container {
@@ -108,7 +99,7 @@
     right: 5%;
 }
 
-/*/////*/
+/////
 
 .todo-list{
     width: 90%;

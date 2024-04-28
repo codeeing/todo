@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/default}">
+<th:block layout:fragment="css">
+    <link rel="stylesheet" href="/css/home.css">
+</th:block>
+<!--<div class="common-layout header login-header">-->
+<!--    <header>-->
+<!--    </header>-->
+<!--</div>-->
+<div layout:fragment="content" class="content login-main">
+    홈화면 본문영역입니다!
+    <div class="login-container">
+        <div class="logo-item"><h2>로그인</h2></div><br>
+        <div class="email-item">
+            <ion-icon name="at-outline" class="icon email-icon"></ion-icon>
+            <input class="form-control" id="email" type="text" placeholder="이메일 입력" required>
+        </div><br>
+        <div class="passwd-item">
+            <ion-icon name="key-outline" class="icon passwd-icon"></ion-icon>
+            <input class="form-control" id="passwd" type="text" placeholder="비밀번호 입력" required>
+        </div><br><br>
+        <div class="btn-item">
+            <button class="btn btn-primary login-btn" onclick="location.href='/users/login'">로그인</button><br>
+            <a class="register-link" href="/users/sign-up">회원가입</a>
+        </div>
+    </div>
+</div>
+<!--<div class="common-layout footer login-footer">-->
+<!--    <footer>-->
+<!--    </footer>-->
+<!--</div>-->
