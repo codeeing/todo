@@ -13,7 +13,7 @@ public class Reply {
     private Long id;
 
     @ManyToOne(fetch = FetchType.LAZY) // FetchType.EAGER가 default
-    @JoinColumn(name = "todo_id")
+    @JoinColumn(name = "todo_id") // 연관관계 주인. Reply 테이블에서 todo_id FK를 지니고 있으니까.
     private Todo todo;
 
     private String replyJson; // reply를 JSON 형식으로 저장

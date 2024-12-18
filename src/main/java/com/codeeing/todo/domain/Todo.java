@@ -7,9 +7,7 @@ import lombok.Setter;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-
 
 @Entity
 @Getter @Setter
@@ -22,7 +20,7 @@ public class Todo {
     private String todoJson; // todo를 JSON 형식으로 저장
 
     @ManyToOne(fetch = FetchType.LAZY) // FetchType.EAGER가 default
-    @JoinColumn(name = "member_id") // 연관관계 주인
+    @JoinColumn(name = "member_id") // 연관관계 주인. Todo 테이블에서 member_id FK를 지니고 있으니까.
     private Member member;
 
     @JsonIgnore // 양방향 연관관계는 둘 중에 하나는 JsonIgnore를 해줘야한다. 그래야만 무한루프에 빠지지 않는다.
